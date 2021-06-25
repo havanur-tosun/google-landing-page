@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+body {
+    width: 100%;
+}
+
+.header {
+    padding: 1rem 1rem 2rem;
+}
+
+.header__left {
+    float: left;
+    margin: 0.5rem;
+}
+
+.header__right {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul a {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 0.5rem;
+    opacity: 0.8;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.header__right--appicon {
+    opacity: 0.6;
+    vertical-align: middle;
+}
+
+.header__right--appicon:hover {
+    opacity: 1;
+}
+
+.header__right--button {
+    color: white;
+    background-color: #4285f4;
+    border: none;
+    height: 30px;
+    width: 70px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.header__right--button:hover {
+    cursor: pointer;
+}
+
+
+
+.main__logo {
+    width: 272px;
+    height: 92px;
+    margin: 198px auto 0;
+    display: block;
+}
+
+.main__search-bar {
+    height: 44px;
+    width: 582px;
+    border: 1px solid lightgray;
+    border-radius: 24px;
+    margin: 28px auto;
+}
+
+.main__search-bar:hover {
+    box-shadow:rgba(32,33,36,0.28) 0px 1px 6px 0px;
+}
+
+.main__search-bar--magnify {
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.main_search-bar--input {
+    height: 33px;
+    width: 490px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+
+.main__search-bar--microphone {
+    width: auto;
+    height: 24px;
+}
+
+.main__buttons {
+    text-align: center;
+}
+
+.main__buttons--left,
+.main__buttons--right {
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    margin: 11px 4px;
+    background-color: #F8F9FA;
+    padding: 0 16px;
+}
+
+.main__buttons--left:hover,
+.main__buttons--right:hover {
+    border: 1px solid #DADCE0;
+    cursor: pointer;
+}
+
+.main__language {
+    text-align: center;
+}
+
+.main__language a {
+    text-decoration: none;
+    color: #1A0DAB;
+}
+
+.main__language a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    bottom: 0;
+    position: fixed;
+    background-color: #f2f2f2;
+    font-size: 15px;
+    line-height: 36px;
+    width: 100%;
+}
+
+.footer__country {
+    padding-top: 10px;
+    padding-left: 18px;
+    color: #5F6368;
+}
+
+.footer__bottom {
+    border-top: 1px solid #DADCE0;
+}
+
+.footer__bottom--left {
+    padding: 15px;
+    color: #5F6368;
+    float: left;
+}
+
+.footer__bottom--right {
+    padding: 15px;
+    color: #5F6368;
+    float: right;
+}
